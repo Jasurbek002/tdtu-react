@@ -1,0 +1,24 @@
+.silide{
+    @apply w-full text-center bg-blue py-10;
+    &__addfile{
+        @apply w-48 h-40 my-10 mx-28 relative rounded-md;
+        input{
+            @apply absolute w-full h-full opacity-0 cursor-pointer rounded-md;
+        }
+        img{
+           @apply w-full h-full rounded-md;
+        }
+    }
+    &__form{
+        border-top: 2px solid rgb(157, 154, 154);
+        @apply flex w-10/12 flex-wrap items-center justify-evenly ml-auto mr-auto;
+        label{
+            @apply text-white text-xl font-medium text-start mt-5; 
+            textarea{
+                background-color: transparent;
+                border: 2px solid rgb(255, 255, 255);
+                @apply p-5 outline-none rounded-lg text-blue m-1 mt-5 text-white
+            }
+        }
+    }
+}

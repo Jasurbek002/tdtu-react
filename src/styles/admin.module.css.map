@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAA;EACL,MAAM,CAAN,2BAAM;CAQT;;AAPI,AAAD,iBAAS,CAAA;EACL,MAAM,CAAN,MAAM;CAKT;;AAJI,AAAD,sBAAM,CAAA;EACF,MAAM,CAAN,kBAAM;EACN,UAAU,EAAE,IAAI;CACnB",
+    "sources": [
+        "admin.module.scss"
+    ],
+    "names": [],
+    "file": "admin.module.css"
+}

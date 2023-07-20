@@ -1,0 +1,10 @@
+.continer{
+    @apply w-full flex justify-between ;
+    &__foobar{
+        @apply  h-full;
+        &__box{
+            @apply w-full h-full p-10;
+            overflow-y: auto;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.silide {
+  @apply w-full text-center bg-blue py-10;
+}
+
+.silide__addfile {
+  @apply w-48 h-40 my-10 mx-28 relative rounded-md;
+}
+
+.silide__addfile input {
+  @apply absolute w-full h-full opacity-0 cursor-pointer rounded-md;
+}
+
+.silide__addfile img {
+  @apply w-full h-full rounded-md;
+}
+
+.silide__form {
+  border-top: 2px solid #9d9a9a;
+  @apply flex w-10/12 flex-wrap items-center justify-evenly ml-auto mr-auto;
+}
+
+.silide__form label {
+  @apply text-white text-xl font-medium text-start mt-5;
+}
+
+.silide__form label textarea {
+  background-color: transparent;
+  border: 2px solid #582fe9;
+  @apply p-5 outline-none rounded-lg text-blue m-1 mt-5 text-white;
+}
+/*# sourceMappingURL=edit.module.css.map */

@@ -1,0 +1,21 @@
+.modalContiner {
+  background-color: rgba(0, 0, 0, 0.386);
+  @apply fixed flex left-0 top-0 bottom-0 right-0 justify-center items-center z-50;
+}
+
+.modal {
+  @apply my-10 mx-10 shadow-2xl p-5 rounded-xl bg-white flex flex-col items-center;
+}
+
+.modal p {
+  @apply text-xl font-bold mb-5;
+}
+
+.modal__btns {
+  @apply w-full flex items-center justify-around;
+}
+
+.modal__btns button {
+  @apply py-1 px-2 text-sm shadow-2xl rounded-md text-white bg-blue hover:opacity-50;
+}
+/*# sourceMappingURL=modal.module.css.map */

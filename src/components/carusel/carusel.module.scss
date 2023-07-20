@@ -1,0 +1,28 @@
+.carusel{
+    overflow-y: auto;
+    @apply w-full h-full flex items-center justify-around flex-wrap relative ;
+    &__add{
+        @apply absolute right-10 top-10 cursor-pointer;
+    }
+    &__card{    
+        @apply w-[500px] h-[350px] shadow-md  relative my-5 rounded-lg;
+        &:hover .carusel__card__btns{
+            @apply opacity-100 ease-in-out transform duration-500;
+        }
+        &__btns{
+          @apply absolute top-1 right-1 z-10 opacity-0 hover:flex ease-in-out transform duration-500;
+          button{
+            @apply cursor-pointer bg-white ml-3 p-2 rounded-full hover:bg-gray border-none duration-150 ease-linear transform;
+          }
+        }
+        img{
+            @apply w-full h-full rounded-lg;
+        }
+        h4{
+            @apply text-xl text-white font-medium p-1 absolute top-0 bg-[#000000]/40 rounded-t-md;
+        }
+        p{
+            @apply text-xl text-white p-1 bottom-0 absolute bg-[#000000]/40 rounded-b-md;
+        }
+    }
+}

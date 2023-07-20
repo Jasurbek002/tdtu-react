@@ -1,0 +1,23 @@
+.continer{
+  @apply w-44 bg-blue pt-5 sticky top-0 bottom-0 flex flex-col items-center shadow-2xl z-50;
+//   border-right: 2px solid white;
+  &__logo{
+    @apply h-20 w-20 ;
+    img{
+        @apply h-20 w-20;
+    }
+  }
+}
+.nav{
+    @apply w-full mt-10 flex flex-col items-center ;
+    &__item{
+        @apply w-10/12 my-5 rounded-2xl h-10 bg-white transform ease-in-out duration-500 cursor-pointer ;
+        @apply flex items-center justify-center flex justify-around;
+        a{
+            @apply text-blue ;
+        }
+        &:hover  a{
+            @apply text-gray;
+        }
+    }
+}

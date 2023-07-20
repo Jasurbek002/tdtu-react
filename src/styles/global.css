@@ -1,0 +1,4 @@
+.buttons {
+  @apply text-blue my-5 w-20 p-2 bg-white shadow-md rounded-md active:opacity-70;
+}
+/*# sourceMappingURL=global.css.map */

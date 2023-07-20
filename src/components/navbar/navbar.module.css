@@ -1,0 +1,12 @@
+.Navbar {
+  @apply w-full bg-blue h-20 flex items-center justify-between px-10 sticky top-0 z-20;
+}
+
+.Navbar__user {
+  @apply flex items-center;
+}
+
+.Navbar__user p {
+  @apply text-white font-bold mr-5 border-b-2;
+}
+/*# sourceMappingURL=navbar.module.css.map */
