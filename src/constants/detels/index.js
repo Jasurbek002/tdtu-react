@@ -21,9 +21,18 @@ const doctarantDetels = {
 };
 
 const economyDetels = {
-  nameuz:"",
-  nameen:"",
-  department:"",
+  nameuz: "",
+  nameen: "",
+  department: "",
 };
 
-export { newsdetels, projectDetels, doctarantDetels ,economyDetels};
+const brmDetels = {
+  brm_image: {},
+  title_uz: "",
+  title_en: "",
+  text_uz: "",
+  text_en: "",
+  category: 1,
+};
+
+export { newsdetels, projectDetels, doctarantDetels, economyDetels, brmDetels };

@@ -12,6 +12,8 @@ import Doctarant, { Adddoc, Editdoc } from "../pages/doctarantura";
 import Contracts from "../pages/contracts";
 import AddContarcts from "../components/contracts/add";
 import Loboratory from "../pages/loboratory/Index";
+import Brm from "../pages/brm";
+import CreateBrm from "../pages/brm/create";
 const Router = () => {
   return (
     <Routes>
@@ -36,6 +38,7 @@ const Router = () => {
         />
         <Route path="/projects" element={<Projects />} />
         <Route path="/doctarant" element={<Doctarant />} />
+        <Route path="/brm" element={<Brm />} />
         <Route path="/economy" element={<Contracts />} />
         <Route path="/loboratory" element={<Loboratory />} />
       </Route>
@@ -61,6 +64,10 @@ const Router = () => {
 
       {/* contarcts router */}
       <Route path="/economy/add" element={<AddContarcts />} />
+
+
+      {/* brm create */}
+      <Route path="/brm/create" element={<CreateBrm />} />
     </Routes>
   );
 };

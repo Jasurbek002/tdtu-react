@@ -5,6 +5,11 @@ export let category = [
         path:'/doctarant'
     },
     {
+        id:1,
+        name:'Brm',
+        path:'/brm'
+    },
+    {
         id:2,
         name:'news',
         path:'/news'
