@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import styles from './sitebar.module.scss'
 import {images} from './../../assets/index.js'
 import {AiOutlineSetting, AiOutlineUserAdd} from 'react-icons/ai'
+import { category } from '../../constants/data/category.jsx';
 const Siteber = () => {
     const hight = window.innerHeight
     
@@ -14,10 +15,13 @@ const Siteber = () => {
                 <img src={images.logo} alt="logotip" />
             </Link>
             <ul className={styles.nav}>
-                <li className={styles.nav__item}>
-                    <Link to='/'>Admins</Link>
-                    <AiOutlineUserAdd size={20} />
+                {category.map((el,i) => {
+                    return   <li className={styles.nav__item}>
+                    <Link to={el.path}>{el.name}</Link>
+                     {el.icon}
                 </li>
+                })}
+
                 <li className={styles.nav__item}>
                     <Link to='/'>Settings</Link>
                     <AiOutlineSetting size={20} />

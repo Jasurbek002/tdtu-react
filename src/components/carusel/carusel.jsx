@@ -54,7 +54,7 @@ const Carusel = () => {
               </button>
             </div>
             <img
-              src={"http://34.204.6.47:5000/" + el.image}
+              src={"https://science.tdtu.uz/" + el.image}
               alt="img"
             />
             <h4>{el.title_uz}</h4>

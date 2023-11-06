@@ -10,13 +10,10 @@ const AdminLayout = () => {
     return (
         <div className={styles.continer}>
             <Siteber />
-            <div 
-            style={{
-                width: innerW - 150
-            }}
+            <div
             className={styles.continer__foobar}>
             <Navbar />
-            <Category />
+            {/* <Category /> */}
            <div className={styles.continer__foobar__box}>
            <Outlet />
            </div>

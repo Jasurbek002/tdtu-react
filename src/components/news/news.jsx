@@ -54,7 +54,7 @@ const News = () => {
           </div>
           <img
             className="w-full rounded-t-lg h-[200px]"
-            src={"http://34.204.6.47:5000/" + el.image}
+            src={"https://science.tdtu.uz/" + el.image}
             alt="newsimg"
           />
           <h2 className="text-xl text-grenn text-center font-bold w-11/12">

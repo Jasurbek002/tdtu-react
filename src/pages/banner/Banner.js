@@ -1,3 +1,2 @@
-import React from 'react';
-import Carusel from '../../components/carusel/carusel';
-
+import React from "react";
+import Carusel from "../../components/carusel/carusel";

@@ -1,7 +1,7 @@
 .continer{
     @apply w-full flex justify-between ;
     &__foobar{
-        @apply  h-full;
+        @apply  h-full w-10/12 ;
         &__box{
             @apply w-full h-full p-10;
             overflow-y: auto;
