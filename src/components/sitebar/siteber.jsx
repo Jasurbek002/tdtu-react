@@ -22,10 +22,10 @@ const Siteber = () => {
                 </li>
                 })}
 
-                <li className={styles.nav__item}>
+                {/* <li className={styles.nav__item}>
                     <Link to='/'>Settings</Link>
                     <AiOutlineSetting size={20} />
-                </li>
+                </li> */}
             </ul>
         </div>
     );
