@@ -21,24 +21,25 @@ export default function AddContarcts() {
   };
 
   const onFormUpdate = (key, value) => {
+   
     setFormDetels({
       ...formDetels,
       [key]: value,
     });
   };
-
+console.log(formDetels)
   return (
     <Wrapper>
       <NavigarBar link={"/economy"} title={"add economy"} />
       <Form styles={true}>
         <Label>
-          <Textarea onChange={(e) => onFormUpdate("nameuz") } placeHolder="text uz" />
+          <Textarea onChange={(e) => onFormUpdate("nameuz",e.target.value) } placeHolder="Muddat" />
         </Label>
         <Label>
-          <Textarea onChange={(e) => onFormUpdate("nameen") } placeHolder="text en" />
+          <Textarea onChange={(e) => onFormUpdate("nameen",e.target.value) } placeHolder="Mualif" />
         </Label>
         <Label>
-          <Textarea onChange={(e) => onFormUpdate("department") } placeHolder="department" />
+          <Textarea onChange={(e) => onFormUpdate("department",e.target.value) } placeHolder="Mavzu" />
         </Label>
         <SubmitButton onClick={onSubmit} />
       </Form>
